@@ -1,6 +1,6 @@
 {
   "name": "lazada-open-platform-sdk",
-  "version": "2.0.1-0",
+  "version": "2.0.2-0",
   "description": "Lazada Open Platform SDK for Node.js",
   "main": "lib/index.js",
   "files": [
@@ -17,23 +17,23 @@
     "check": "npm run lint && npm run flow && npm run test",
     "build": "NODE_ENV=production npm run lib:clean && npm run lib:transpile",
     "preversion": "npm test",
-    "version": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/branch8/lazada-open-platform-sdk.git"
+    "url": "git+https://github.com/Wizard-Rogue/lazada-open-platform-sdk.git"
   },
   "keywords": [
     "lazada",
     "sdk",
     "lazop"
   ],
-  "author": "Conrad Lo",
+  "author": "Conrad Lo, Joseph Angelo Ferrer Barrozo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/branch8/lazada-open-platform-sdk/issues"
+    "url": "https://github.com/Wizard-Rogue/lazada-open-platform-sdk/issues"
   },
-  "homepage": "https://github.com/branch8/lazada-open-platform-sdk#readme",
+  "homepage": "https://github.com/Wizard-Rogue/lazada-open-platform-sdk#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.3",
