@@ -9,3 +9,4 @@ export type OrderStatus =
   | 'returned'
   | 'shipped'
   | 'failed'
+  | 'unpaid'
